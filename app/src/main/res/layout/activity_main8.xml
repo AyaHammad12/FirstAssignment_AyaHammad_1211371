@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    style="@style/theam"
+    android:background="#0F1432"
+    tools:context=".MainActivity5">
+
+    <TextView
+
+
+        android:id="@+id/textView7"
+        style="@style/textStyleTop"
+
+        android:text="المستطيل"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="166dp"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"/>
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/image7" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="531dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/textStyle21"
+                android:text="ما هو المستطيل :" />
+
+            <TextView
+                style="@style/textStyle2"
+                android:text="  المستطيل هو شكل ثنائي الأبعاد، وهو رباعي أضلاع حيث تكون زواياه الأربعة قائمة. ينبع من هذا أنّ للمستطيل زوجين من الضلعين المتقابلين والمتساويين؛ أي أنّ المستطيل هو حالة خاصة من متوازي أضلاع تكون كل زواياه قائمة. كما يعتبر المربع حالة خاصة من المستطيل تكون فيها أطوال الأضلاع الأربعة متساوية " />
+
+            <TextView
+                style="@style/textStyle21"
+                android:text="متى يكون الشكل الرباعي مستطيلاً" />
+
+            <TextView
+                style="@style/textStyle2"
+                android:text="نقول عن شكل رباعي بسيط أنه مستطيل إذا وفقط إذا تحققت أحد الشروط:
+
+تساوت جميع زواياه.
+جميع زواياه قائمه.
+اذ كان طولا قطريه متساويان.
+المستطيل ABCD والمثلثان الذي نتجا عندما وضعنا قطر:ABD و CDA متطابقان  " />
+
+            <TextView
+                style="@style/textStyle21"
+                android:text="خواص المستطيل " />
+
+
+            <TextView
+                style="@style/textStyle2"
+                android:text="يسمى الضلع الأطول في المستطيل الطول، والضلع الأقصر العرض. وتكون مساحة المستطيل حاصل ضرب طوله وعرضه.
+
+إن المستطيل مضلع دائري ويشكل كل قطر في المستطيل قطراً للدائرة المحيطة، وفيه تكون جميع الزوايا قائمة، وكل ضلعين متقابلين متوازيين ومتساويين. لأنّه نوع خاص من متوازي أضلاع، فإنّ أقطار المستطيل متساوية الطول وتنصّف بعضها البعض. بعكس المربع والمعين فإنّ أقطار المستطيل غير متعامدة ولا تنصف زواياه ما لم يكن معيناً. للمستطيل محورا تناظر، وكل منهما مستقيم يمر من منتصفي ضلعين متقابلين. لأنّ زوايا المستطيل قائمة، بالإمكان إيجاد طول قطره، c، من عرضه، a، وطوله، b، بواسطة قانون فيثاغورس " />
+
+            <TextView
+                style="@style/textStyle"
+                android:text=" [محيط المستطيل = 2 x الطول + 2 x العرض ]" />
+
+            <TextView
+                style="@style/textStyle2"
+                android:text="          مثال: " />
+
+            <TextView
+                style="@style/textStyle"
+                android:text="اذا كان طول المستطل = 6 و عرضه = 4 " />
+
+            <TextView
+                style="@style/textStyle"
+                android:text=" محيط المستطيل هو  " />
+
+            <TextView
+                style="@style/textStyle"
+                android:text="20 " />
+
+            <TextView
+                style="@style/textStyle2"
+                android:text="          الحل  : " />
+
+            <TextView
+                style="@style/textStyle"
+                android:text=" هو " />
+
+            <TextView
+                style="@style/textStyle"
+                android:text=" 2 x 6 + 2 x 4 = 12 + 8 = 20  " />
+
+            <TextView
+                style="@style/textStyle"
+                android:layout_marginTop="10dp"
+                android:text=" صيغة المحيط هي 2a + ab" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

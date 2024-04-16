@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#0F1432"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textTime"
+        style="@style/textStyle"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/textStyleTop"
+        android:text="التدريبات "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="531dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditTextStyle"
+                android:text="حفظ "
+                android:onClick="CheckBoxOnClick"
+                />
+
+            <TextView
+                style="@style/textStyle21"
+                android:text="1-ما هو الشكل الذي لديه 3 اضلاع :  :" />
+
+            <EditText
+               android:id="@+id/Q1"
+                style="@style/EditTextStyle"
+                android:hint="اجب"
+                />
+<!--            <RadioGroup-->
+<!--                android:id="@+id/rg1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <RadioButton-->
+<!--                    android:id="@+id/q1radio1_1"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="المثلث"-->
+<!--                    android:textColor="#FFFFFF"/>-->
+
+<!--                <RadioButton-->
+<!--                    android:id="@+id/q1radio1_2"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="مربع"-->
+<!--                    android:textColor="#FFFFFF"/>-->
+
+<!--                <RadioButton-->
+<!--                    android:id="@+id/q1radio1_3"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="دائرة"-->
+<!--                    android:textColor="#FFFFFF"/>-->
+<!--            </RadioGroup>-->
+
+            <TextView
+                style="@style/textStyle21"
+                android:text="2-ما صيغه المربع " />
+
+            <EditText
+                android:id="@+id/Q2"
+                style="@style/EditTextStyle"
+                android:hint="اجب"
+                android:minHeight="48dp" />
+
+            <TextView
+                style="@style/textStyle21"
+                android:text="3-ما هو الشكل الذي له 4 زوايا قائمه , و كل اضلاعه متساوية؟" />
+
+            <EditText
+                android:id="@+id/Q3"
+                style="@style/EditTextStyle"
+                android:hint="اجب"
+                android:minHeight="48dp" />
+
+            <TextView
+                style="@style/textStyle21"
+                android:text="4- [محيط الشكل = 2 x نصف القطر x ط ] . فما هو هذا الشكل :" />
+
+            <EditText
+                android:id="@+id/Q4"
+                style="@style/EditTextStyle"
+                android:hint="اجب"
+                />
+
+            <TextView
+                style="@style/textStyle21"
+                android:text=" 5-   ما صيغه محيط المثلث : "
+                />
+
+            <EditText
+                android:id="@+id/Q5"
+                style="@style/EditTextStyle"
+                android:hint="اجب"
+                />
+            <TextView
+                style="@style/textStyle21"
+                android:text=" 6- ما هو الشكل الذي ليست لديه زوايا : "
+                />
+
+            <EditText
+                android:id="@+id/Q6"
+                style="@style/EditTextStyle"
+                android:hint="اجب"
+                />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="save"
+                android:onClick="btnSaveOnClick"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

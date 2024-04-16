@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    style="@style/theam"
+    android:background="#0F1432"
+    tools:context=".MainActivity5">
+
+    <TextView
+
+        style="@style/textStyleTop"
+        android:id="@+id/textView7"
+        android:text="مربع"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="166dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="112dp"
+                        app:srcCompat="@drawable/image5"
+                        android:layout_marginBottom="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="531dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/textStyle21"
+                android:text="ما هو المربع :" />
+
+            <TextView
+                style="@style/textStyle2"
+                android:text="  هو رباعي أضلاع منتظم أضلاعه متساوية في الطول ومتعامدة تشكل أربع زوايا قائمة. يمكن تشكيل المربع عن طريق جمع مثلثين قائمي الزاوية ومتساويا الساقين عند الوتر. المربع هو رباعي أضلاع منتظم." />
+
+            <TextView
+                style="@style/textStyle21"
+                android:text="يتمّ تمييز المربع عن غيره من الأشكال الهندسية الرباعية عبر عددٍ من الخصائص التي تميّزه، ومن هذه الخصائص ما يأتي:" />
+
+            <TextView
+                style="@style/textStyle2"
+                android:text="أضلاع المربع الأربعة متساوية الطول. زوايا المربع الدّاخلية كلها قائمة، أيّ تساوي مقدار 90 درجة. قطرا المربع متعامدان عند نقطة التقائهما، ومتساويان في المقدار. قطرا المربع يقسمان المربع إلى مثلين متماثلين، وكلاهما مثلث متساوي الساقين. قطرا المربع يقسِّمان الزوايا الداخلية للمربع إلى زوايا كل واحدة منها تساوي 45 درجة. قطرا المربع يساوي كلّ واحد منهما قطر الدائرة المرسومة في داخله والتي تتماسّ مع أضلاعه الأربعة. نصف قطر الدائرة المرسومة في داخل المربع، والتي تتماسّ مع أضلاعه تساوي نصف طول ضلع المربع. قطرا المربع ينصّف كل واحد منهما الآخر، ونقطة التقائهما لديها نفس المسافة عن كل رؤوس المربع، وإذا تم رسم دائرة مركزها نقطة التقاء قطري المربع فإنّ محيطها سيلمس كافة رؤوس المربع. أضلاع المربع المتجاورة متعامدة، بينما أضلاعه المتقابلة متوازية. المربع هو مستطيل جميع أضلاعه متساوية الطول. يمكن تقسيم المربع من منتصف أحد الأضلاع لإنتاج مستطيلَين متماثلين. المربع هو مَعين كل زواياه قائمة.
+
+"/>
+
+
+
+            <TextView
+                        style="@style/textStyle"
+                        android:text=" [محيط المربع= 4 x الضلع ] "
+                       />
+                    <TextView
+                        style="@style/textStyle2"
+                        android:text="          مثال: "
+                        />
+                    <TextView
+                        style="@style/textStyle"
+                        android:text="اذا كان الضلع = 5 "
+                        />
+
+                    <TextView
+                        style="@style/textStyle"
+                        android:text=" محيط مربع مع ضلعه = 5 هو  "
+                     />
+                    <TextView
+                        style="@style/textStyle"
+                        android:text=" 20 "
+                       />
+                    <TextView
+                        style="@style/textStyle2"
+                        android:text="          الحل  : "
+                       />
+                    <TextView
+                        style="@style/textStyle"
+                        android:text=" محموع اضلا المربع و هي 4 اضلاع و قيمه الضلع الواحد = 4 "/>
+                    <TextView
+                        style="@style/textStyle"
+                        android:text="  4 x 5 = 20  "/>
+
+                    <TextView
+                        style="@style/textStyle"
+                        android:text="@string/_4a"/>
+
+                </LinearLayout>
+
+        </ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <string name="تدريبات">التدريبات</string>
+    <string name="الاشكال">الاشكال الهندسية</string>
+    <string name="استكشف">استكشف الاشكال الهندسية</string>
+    <string name="btn3header">الحاسبه الهندسية</string>
+    <string name="image1">Geometric forms</string>
+    <string name="محيط">محيط الاشكال الهندسيه</string>
+    <string name="_4a">صيغة المحيط هي 4a</string>
+</resources>

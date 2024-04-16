@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    style="@style/theam"
+    android:background="#0F1432"
+    tools:context=".MainActivity5">
+
+    <TextView
+
+        android:id="@+id/textView7"
+        style="@style/textStyleTop"
+
+        android:text="مثلث"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/image4" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="531dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/textStyle21"
+                android:text="ما هو المثلث :" />
+
+            <TextView
+                style="@style/textStyle2"
+                android:text="يُمكن تعريف المثلث (بالإنجليزية: Triangle) على أنه شكل مغلق ثنائي الأبعاد،[١] وثلاثي الأضلاع،[٢] ويتكوّن من ثلاث قطع مستقيمة تُشكّل الأضلاع تتقاطع في نهايتها لتكوين الرؤوس أو الزوايا، وتتم تسمية المثلث غالباً بالاعتماد على رؤوسه، وله ثلاث زوايا يكون مجموع قياسها 180 درجة،[٣] ودائماً ما يقابل أقصر ضلع من المثلث أصغر زاوية داخلية، ويقابل أطول ضلع من المثلث أكبر زاوية داخلية،
+"/>
+
+            <TextView
+                style="@style/textStyle21"
+                android:text="خواص الثلث:  " />
+
+
+            <TextView
+                style="@style/textStyle2"
+                android:text="إذا وازى مستقيم أحد أضلاع المثلث وقطع الضلعيين الآخرين فإنّه يقسم المثلث إلى مثلثات متشابهة ومتناسبة في الطول. مجموع أطوال أي ضلعين من المثلث أكبر من طول الضلع الثالث دائماً، وبالمثل الفرق بين أطوال أي ضلعين أقل من طول الضلع الثالث دائماً.[٥] الزاوية الخارجيّة للمثلث تساوي مجموع الزوايا الداخليّة المقابلة لها أو البعيدة عنها،[٥] ويكون مجموع الزوايا الخارجيّة للمثلث هو 360 درجة.[٦] يقسم الارتفاع المثلث متساوي الساقين والمثلث متساوي الأضلاع القاعدة إلى نصفين متساويين، كما يقسم المثلث إلى مثلثين متساويين. "/>
+            <TextView
+                style="@style/textStyle"
+                android:text=" [محيط المثلث = الجانب الاول + الجانب الثاني + الجانب الثالث  ] "
+                />
+            <TextView
+                style="@style/textStyle2"
+                android:text="          مثال: "
+                />
+            <TextView
+                style="@style/textStyle"
+                android:text="اذا كان الضلع الاول = 5 و الثاني = 8 و الثالث = 6 "
+               />
+
+            <TextView
+                style="@style/textStyle"
+                android:text=" محيط المثلث هو  "
+                />
+            <TextView
+                style="@style/textStyle"
+                android:text=" 19 "
+                />
+            <TextView
+                style="@style/textStyle2"
+                android:text="          الحل  : "
+                />
+            <TextView
+                style="@style/textStyle"
+                android:text=" محموع اضلا المثلث و هي "
+               />
+            <TextView
+                style="@style/textStyle"
+                android:text="   5 + 8 + 6 = 19   "
+                />
+
+            <TextView
+                style="@style/textStyle"
+                android:text=" صيغة المحيط هي a + b + c    "
+               />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

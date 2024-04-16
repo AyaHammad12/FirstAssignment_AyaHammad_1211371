@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    style="@style/theam"
+    android:background="#0F1432"
+    tools:context=".MainActivity5">
+
+    <TextView
+
+        style="@style/textStyleTop"
+        android:id="@+id/textView7"
+        android:text="الدائرة"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="166dp"
+        />
+
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/image6" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="531dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+
+            <TextView
+                style="@style/textStyle21"
+                android:text="ما هي الدئره :  :" />
+
+            <TextView
+                style="@style/textStyle2"
+                android:text="  مكن تعريف الدائرة بأنها شكل هندسي ثنائي الأبعاد، يتكون من مجموعة من النقاط تبعد نفس المسافة عن نقطة معينة ثابتة تعرف باسم "
+              />
+            <TextView
+                style="@style/textStyle21"
+                android:text="أمثلة على أشكال الدوائر من الحياة اليومية" />
+
+            <TextView
+                style="@style/textStyle2"
+                android:text="توجد الدائرة في إطار العجلات، وفي العملات المعدنية، والخواتم، والبيتزا والأطباق. " />
+
+            <TextView
+                style="@style/textStyle21"
+                android:text="ما هي أجزاء الدائرة؟" />
+
+
+            <TextView
+                style="@style/textStyle2"
+                android:text="الدائرة مؤلفة من أجزاء أو أقسام أو عناصر مثل:
+
+محيط الدائرة
+مركز الدائرة
+القطر
+نصف القطر
+الوتر
+القوس
+القطاع
+خط التماس
+نقطة التماس
+"/>
+
+
+            <TextView
+                style="@style/textStyle"
+                android:text=" [محيط الدائرة = 2 x نصف القطر x ط ]
+\n حيث ط = 3,14159"
+               />
+            <TextView
+                style="@style/textStyle2"
+                android:text="          مثال: "
+              />
+            <TextView
+                style="@style/textStyle"
+                android:text="اذا كان  نصف قطر الدائرة= 6 "
+                />
+
+            <TextView
+                style="@style/textStyle"
+                android:text=" محيط الدائرة هو  "
+                />
+            <TextView
+                style="@style/textStyle"
+                android:text=" 37,7 "
+                />
+            <TextView
+                style="@style/textStyle2"
+                android:text="          الحل  : "
+                />
+            <TextView
+                style="@style/textStyle"
+                android:text=" هو "
+                />
+            <TextView
+                style="@style/textStyle"
+                android:text="   2 x 3,14159 x 6 = 37,7   "
+               />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                style="@style/textStyle"
+                android:text=" صيغة المحيط هي 2rπ
+\n حيث r= نصف القطر
+\n ط = π "
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

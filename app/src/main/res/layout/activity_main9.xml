@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    style="@style/theam"
+    android:background="#0F1432"
+    tools:context=".MainActivity9">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="1dp"
+        android:text="الحاسبة الهندسية"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <TableRow
+            android:id="@+id/TRSQ"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/edt_seq"
+                style="@style/tableStyleIN"
+                android:hint="الضلع"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                style="@style/textStyle"
+                android:text="المربع:  " />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TRTR"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/edt_tr1"
+                style="@style/tableStyleIN"
+                android:hint=" الجانب الاول" />
+
+            <TextView
+                style="@style/textStyle"
+                android:text="المثلث:" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TRTR2"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/edt_tr2"
+                style="@style/tableStyleIN"
+                android:hint=" الجانب الثاني"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TRTR3"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/edt_tr3"
+                style="@style/tableStyleIN"
+                android:hint=" الجانب الثالث" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TRCR"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/edt_cr"
+                style="@style/tableStyleIN"
+                android:hint="نصف القطر" />
+
+            <TextView
+                style="@style/textStyle"
+                android:text="الدائرة : " />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TRRE1"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/edt_rec1"
+                style="@style/tableStyleIN"
+                android:hint="الطول " />
+
+            <TextView
+                style="@style/textStyle"
+                android:text="المستطيل :" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TRRE2"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/edt_rec2"
+                style="@style/tableStyleIN"
+                android:hint="العرض " />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btnPress"
+                android:text="احسب"
+                android:layout_weight="2"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/edt_result"
+
+                android:hint="res"
+                android:background="@color/white"
+                android:textColor="@color/black"
+
+                />
+<!--                tools:ignore="TouchTargetSizeCheck" -->
+
+
+            <TextView
+                style="@style/textStyle"
+                android:textColor="@color/white"
+
+                android:text="النتيجة :" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
